@@ -1,0 +1,48 @@
+#nav{
+    height: 90px;
+    width: 97vw;
+    background-color: rgb(25, 25, 243);
+    border: solid white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    box-shadow: 5px 10px 5px;
+    position: absolute;
+    top: 20px;
+}
+
+a{
+    color: white;
+}
+
+body{
+    background-color: rgb(254, 254, 254);
+}
+
+
+:hover.h{
+    background-color: lightblue;
+}
+:hover.s{
+    background-color: lightblue;
+}
+:hover.C{
+    background-color: lightblue;
+}
+:hover.A{
+    background-color: lightblue;
+}
+:hover.R{
+    background-color: lightblue;
+}
+
+
+.L{
+    padding: 20px;
+    border: solid white;
+    background-color: black;
+    z-index: 1;
+    position: relative;
+}
+
+

@@ -1,0 +1,64 @@
+body{
+    background-color: green;
+    width: 100vw;
+    height: 100vh;
+}
+
+.outter-container{
+    border: solid goldenrod;
+    background-color: white;
+    height: 900px;
+    width: 850px;
+    margin: auto;
+}
+
+.inner-container{
+    border: solid goldenrod;
+    border-width: 5px;
+    background-color: rgb(244, 225, 177);
+    height: fit-content;
+    width: fit-content;
+    margin: 40px;
+}
+
+.top-right{
+    display: flex;
+}
+
+#xi{
+    color: crimson;
+    font-weight: bold;
+}
+
+#xs{
+    color: white;
+    background-color: goldenrod;
+    width: 90px;
+}
+
+#xz{
+    border: solid goldenrod;
+    background-color: white;
+    height: 200px;
+    width: 400px;
+    display: flex;
+    box-shadow: 5px 10px goldenrod;
+}
+
+#ci{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 3;
+    color: green;
+    border-top: solid green;
+}
+
+.z{
+    color: green;
+    padding-left: 250px;
+    font-weight: bolder;
+}
+
+hr{
+    background-color: green;
+}

@@ -1,0 +1,78 @@
+body{
+    background-color: green;
+    width: 100vw;
+    height: 100vh;
+}
+
+.main-container{
+    width: 90%;
+    height: 90%;
+    margin: auto;
+    border-radius: 20px;
+    background-color: rgb(242, 242, 242);
+    overflow: hidden;
+}
+
+.nav-container{
+    display: flex;
+    background-color: white;
+    height: 50px;
+    /*gap: 30px; */   
+    align-items: center;
+    justify-content: space-evenly;
+    box-shadow: 5px 5px 10px 5px rgb(211, 211, 211, 0.332);
+}
+
+.logo{
+    display: flex;
+}
+
+.logo p:nth-child(1){
+   color: rgb(6, 84, 9);
+   font-weight: bold;
+}
+
+.logo p:nth-child(2){
+    color:  rgb(61, 168, 61);
+    font-size: 15px;
+    font-weight:  bold;
+}
+
+.icon-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 7px;
+    flex-direction: row-reverse;
+}
+.icon-container p{
+    color: rgb(132, 132, 132);
+    font-size: 12px;
+}
+
+.icon-container i{
+    color: rgb(132, 132, 132);
+    font-size: 20px;
+}
+
+.body-container{
+    display: flex;
+    width: 100%;
+    padding: 10px;
+}
+
+.bodyleft{
+    margin: 50px auto;
+    flex: 1;
+}
+
+.bodyleft img{
+    width: 200px;
+    height: 200px;
+    object-fit: contain;
+}
+
+.bodyright{
+    flex: 1;
+    background-color: white;
+}

@@ -1,0 +1,119 @@
+#parent-div{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+.iv1{
+    border-radius: 100%;
+    border: solid;
+    background-color: black;
+    height: 100px;
+    width: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    z-index: 1;
+    margin: 100px;
+    top: 1px;
+    animation: aniball ease-in-out 5s infinite forwards;
+}
+
+.iv2{
+    border-radius: 100%;
+    border: solid;
+    background-color: black;
+    height: 100px;
+    width: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    z-index: 1;
+    bottom: 200px;
+    top: 110px;
+    margin: 100px;
+    animation: aniball2 ease-in-out 6s infinite forwards;
+}
+
+.iv3{
+    border-radius: 100%;
+    border: solid;
+    background-color: black;
+    height: 100px;
+    width: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    z-index: 1;
+    bottom: 60px;
+    margin: 100px;
+    animation: aniball3 ease-in-out 7s infinite forwards;
+}
+
+@keyframes aniball {
+    0%{
+        animation-delay: 0s;
+        background-color: black;
+    }
+
+    50%{
+        animation-delay: 5s;
+        background-color: lightslategrey;
+    }
+
+    100%{
+        animation-delay: 10s;
+        background-color: red;
+    }
+    
+}
+
+@keyframes aniball2 {
+    0%{
+        animation-delay: 0s;
+        background-color: black;
+    }
+    
+    50%{
+        animation-delay: 5s;
+        background-color: lightslategrey;
+    }
+
+    100%{
+        animation-name: 10s;
+        background-color: yellow;
+    }
+}
+
+@keyframes aniball3 {
+    0%{
+        animation-delay: 0s;
+        background-color: black;
+    }
+
+}
+
+
+@keyframes aniball3 {
+    0%{
+        animation-delay: 0s;
+        background-color: black;
+    }
+
+    50%{
+        animation-delay: 5s;
+        background-color: lightslategrey;
+    }
+
+    100%{
+        animation-delay: 10s;
+        background-color: greenyellow;
+    }
+    
+}
+img{
+    position: absolute;
+}

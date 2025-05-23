@@ -1,0 +1,38 @@
+.parent-div{
+    display: grid;
+    grid-template-columns:200px 200px 200px 200px 200px 200px ;
+    grid-template-rows: 200px 200px 200px 200px 200px 200px ;
+    place-content: center;
+}
+
+.p{
+background-color: blue;
+border-radius: 100%;
+width: 150px;
+height: 150px;
+display: flex;
+align-items: center;
+justify-content: center;
+margin: 100px auto;
+animation: spin;
+animation-duration: 3s;
+animation-iteration-count: infinite;
+animation-timing-function: ease-in-out;
+}
+
+@keyframes spin {
+ 0%{
+
+ }   
+ 100%{
+    transform: scale(9);
+    transform: rotate(360deg);
+ }
+}
+
+@keyframes bounce {
+    0%{
+        
+    }
+}
+

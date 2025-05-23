@@ -1,0 +1,22 @@
+#lo{
+    border: solid;
+    border-radius: 10%;
+    width: 800px;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+}
+
+#in{
+    background-color: rgb(58, 113, 243);
+    color: white;
+    width: 80px;
+    border-radius: 15%;
+    height: 40px;
+}
